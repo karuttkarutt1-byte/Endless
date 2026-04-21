@@ -1,0 +1,23 @@
+.cyber-header {
+  background-color: #000000;
+ 
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #0ff;
+  box-shadow: 0 0 10px #0ff;
+  font-family: 'Courier New', monospace;
+  animation: glow 1.5s infinite alternate;
+}
+
+.glitch:hover {
+  color: #f0f;
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f;
+  transition: 0.3s;
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px #0ff; }
+  to { box-shadow: 0 0 20px #0ff, 0 0 30px #0ff; }
+}

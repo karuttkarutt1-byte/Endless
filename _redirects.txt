@@ -1,0 +1,2 @@
+/scramjet/*  /index.html  200
+/classes/*   /index.html  200
